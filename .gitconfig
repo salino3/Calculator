@@ -1,0 +1,13 @@
+# This is Git's per-user configuration file.
+[user]
+	email = flaviobcn012@gmail.com
+	name = salino3
+# Please adapt and uncomment the following lines:
+#	name = unknown
+#	email = Usuario1@USUARIO.(none)
+[alias]
+	lg = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all
+	s = status
+[pull]
+
+	rebase = true
